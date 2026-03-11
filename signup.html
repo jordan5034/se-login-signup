@@ -1,40 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Sign Up</title>
         <link rel="stylesheet" href="styles.css">
     </head>
-
-
     <body>
-
         <div class="signup-container">
             <h2>Sign Up</h2>
             <form action="" method="post">
-                <label for="firstName">First Name</label>
-                <input type="text" id="firstName" name="firstName" required>
-                <br>
-                <label for="lastName">Last Name</label>
-                <input type="text" id="lastName" name="lastName" required>
-                <br>
-                <label for="newUserID">User ID</label>
-                <input type="text" id="newUserID" name="newUserID" required>
-                <br>
-                <label for="newPassword">Password</label>
-                <input type="password" id="newPassword" name="newPassword" required>
-                <br>
-                <button type="submit">Submit</button>
+                <div class="form-row">
+                    <label for="firstName">First Name</label>
+                    <input type="text" id="firstName" name="firstName" required>
+                </div>
+                <div class="form-row">
+                    <label for="lastName">Last Name</label>
+                    <input type="text" id="lastName" name="lastName" required>
+                </div>
+                <div class="form-row">
+                    <label for="newUserID">User ID</label>
+                    <input type="text" id="newUserID" name="newUserID" required>
+                </div>
+                <div class="form-row">
+                    <label for="newPassword">Password</label>
+                    <input type="password" id="newPassword" name="newPassword" required>
+                </div>
+                <div class="form-actions">
+                    <button type="submit">Submit</button>
+                </div>
             </form>
+            <div>
+                <p>Already have an account? <a href="login.html">Login here</a>.</p>
+            </div>
         </div>
-
-        <div>
-            <p>Already have an account? <a href="login.html">Login here</a>.</p>
-        </div>
-
-
     </body>
-
 </html>
